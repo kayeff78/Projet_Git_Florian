@@ -23,6 +23,7 @@
       body
       {
         font-family: 'Yuji Mai', serif;
+        background: grey;
       }
 
       h1
@@ -33,7 +34,8 @@
 
       img
       {
-        
+        height: 600px;
+        object-fit: contain;
       }
 
      
@@ -43,7 +45,7 @@
   <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-5">
-      ic
+      
   <div class="container-fluid">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,20 +70,17 @@
             <li><a class="dropdown-item" href="#">Assistances et Entretien</a></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-success" type="submit">Search</button>
       </form>
     </div>
   </div>
 </nav>
 </header>
 
-    <h1 class="text-center">Projet Git </h1>
+    <h1 class="text-center"> </h1>
 
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
