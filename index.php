@@ -45,11 +45,9 @@
 
       .logo
       {
-        width: 75px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
         float: left;
-        margin-right: 15px;
-        margin-top: 20px;
       }
 
      
@@ -67,7 +65,7 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse ps-3" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Modele</a>
@@ -162,9 +160,9 @@
                 <div class="col-sm-6 col-md-6 zone-administratif">
                     <h4 class="text-center">Administratifs</h4>
                     <ul class="d-flex justify-content-center menu-footer mb-0">
-                        <li><a href="">Conditions Génerale de Vente</a></li>
-                        <li><a href="">Mentions légales</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li style="list-style-type: none"><a href="">Conditions Génerale de Vente</a></li>
+                        <li style="list-style-type: none"><a href="">Mentions légales</a></li>
+                        <li style="list-style-type: none"><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 col-md-6">
