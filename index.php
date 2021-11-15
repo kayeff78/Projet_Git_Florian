@@ -43,9 +43,13 @@
         font-family: 'Roboto Mono', monospace;
       }
 
-      img
+      .logo
       {
-        
+        width: 75px;
+        height: 50px;
+        float: left;
+        margin-right: 15px;
+        margin-top: 20px;
       }
 
      
@@ -54,10 +58,11 @@
   </head>
   <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
       
   <div class="container-fluid">
     <div class="container">
+    <img src="img/kf.jpg " alt="..." class="logo">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -83,8 +88,8 @@
         </li>
       </ul>
       <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <input class="form-control me-2" type="search" placeholder="" aria-label="Search ">
+        <button class="btn btn-outline-danger" type="submit"><i class="bi bi-search"></i></button>
       </form>
     </div>
     </div>
@@ -118,59 +123,62 @@
 
 </div>
 
-<H1 class="text-center text-dark fw-bold ">Entrez dans l'univers des voitures nouvelles génerations</H1>
+<H1 class="text-center text-dark fw-bold ">Entrez dans l'univers des voitures hyper-sportive</H1>
 
-<div class="d-flex space-around-between ">
+<div class="container d-flex flex-wrap justify-content-around my-5 ">
 
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="img/buggati.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Buggati</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, numquam atque! Fugiat minima deserunt molestiae amet obcaecati optio numquam aspernatur incidunt consectetur esse! Mollitia, deleniti.</p>
+    <a href="#" class="btn btn-primary">En savoir plus</a>
   </div>
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="img/czinger.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Czinger</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed aperiam laudantium sapiente fugit provident! Velit iusto aut, totam autem repellat minus temporibus tempore illum officia.</p>
+    <a href="#" class="btn btn-primary">En savoir plus</a>
   </div>
 </div>
    
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="img/aston_martin.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Aston martin</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam nostrum at excepturi amet voluptas veniam possimus labore quis, vel maiores, deleniti animi quos odit unde.</p>
+    <a href="#" class="btn btn-primary">En savoir plus</a>
   </div>
 </div>
+
+
 </div>
    
-<footer class="bg-dark text-white">
+<footer class="bg-dark text-white py-5">
             <div class="d-flex align-items-center zone-footer">
                 <div class="col-sm-6 col-md-6 zone-administratif">
                     <h4 class="text-center">Administratifs</h4>
                     <ul class="d-flex justify-content-center menu-footer mb-0">
-                        <li><a href="">CGV</a></li>
+                        <li><a href="">Conditions Génerale de Vente</a></li>
                         <li><a href="">Mentions légales</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 col-md-6">
                     <h4 class="text-center">Mes réseaux sociaux</h4>
-                    <p class="d-flex justify-content-center mb-0">
+                    <p class="d-flex justify-content-center mb-4">
                         <a href=""><i class="bi bi-facebook icone-b"></i></a>
                         <a href=""><i class="bi bi-instagram icone-b"></i></a>
                         <a href=""><i class="bi bi-twitter icone-b"></i></a>
+                        <a href=""><i class="bi bi-youtube"></i></a>
                     </p>
                 </div>
             </div>
-            <div class="d-flex align-items-end div-footer-copyright">
-                <p class="text-center zone-copyright py-3 mb-0">&copy; 2021 |Florian KIZEYI</p>
+            <div class="align-items-end div-footer-copyright">
+                <p class="text-center zone-copyright py-3 mb-0">&copy; 2021. Tout droits réserves. | Florian KIZEYI</p>
             </div>
         </footer>
    
