@@ -18,6 +18,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+   <!-- google font urbanist -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap" rel="stylesheet">
+
+    <!-- CDN font / police de caractères -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
     <title>Projet_Git_Florian</title>
     <style>
       body
@@ -103,16 +115,73 @@
     <span class="visually-hidden">Next</span>
   </button>
 
-  <button type="button" class="btn btn-primary">Primary</button>
-  <button type="button" class="btn btn-secondary">Secondary</button>
-  <button type="button" class="btn btn-success">Success</button>
-  <button type="button" class="btn btn-danger">Danger</button>
+
 </div>
 
+<H1 class="text-center text-dark fw-bold ">Entrez dans l'univers des voitures nouvelles génerations</H1>
+
+<div class="d-flex space-around-between ">
+
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+   
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+   
+<footer class="bg-dark text-white">
+            <div class="d-flex align-items-center zone-footer">
+                <div class="col-sm-6 col-md-6 zone-administratif">
+                    <h4 class="text-center">Administratifs</h4>
+                    <ul class="d-flex justify-content-center menu-footer mb-0">
+                        <li><a href="">CGV</a></li>
+                        <li><a href="">Mentions légales</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <h4 class="text-center">Mes réseaux sociaux</h4>
+                    <p class="d-flex justify-content-center mb-0">
+                        <a href=""><i class="bi bi-facebook icone-b"></i></a>
+                        <a href=""><i class="bi bi-instagram icone-b"></i></a>
+                        <a href=""><i class="bi bi-twitter icone-b"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex align-items-end div-footer-copyright">
+                <p class="text-center zone-copyright py-3 mb-0">&copy; 2021 |Florian KIZEYI</p>
+            </div>
+        </footer>
    
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
 
     
   </body>
